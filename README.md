@@ -8,12 +8,12 @@ IT automation (mostly, remote scripting execution).
 ## Introduction
 
 As part of a DevOps team for years, I've saw in many scenarios a frequent need
-for some kind of automation self-service, mostly for running some privileged IT
+for some kind of automation self-service, often for running some privileged IT
 operation or script on a remote server.
 
 The background is that experienced technical engineers build scripts for many
-tasks that can be delegated to operators or directly to users while keeping
-execution authorization and auditory. This frees engineers from running the
+tasks that could be delegated to operators or directly to users if execution
+authorization and auditory is kept. This would free engineers from running the
 operations and reporting the results.
 
 A good approach must be able to offer "*level 3*" automation solution
@@ -47,7 +47,7 @@ seen in a IT organization (department, team or company).
 In a nutshell:
 
 - At the first level, all automation solutions (mostly scripts) are focused
-on helping or supporting technical staff work.
+on helping or supporting technical staff daily work.
 
 - At the second level, technical specialists develop automation solutions to
 be operated by... operators, freeing them from the standard work load so
@@ -55,13 +55,14 @@ they can build more services, tune the systems/applications or any other
 action with higher value.
 
 - The third level is a cloud or self-service mode: the customer can make
-requests directly from a user interface or console. Operators just monitor
-the system or provide support to the customers.
+requests directly from an user interface or console. Now operators just
+monitor the system or provide support to the customers.
 
-This project sits for this last level: a user centered console for requesting
-IT services. Each request launches a predefined work-flow that can query and
-store configuration items, run command-line instructions (scripts or other
-tooling calls like executing Ansible playbooks) or call remote services.
+This project sits for this last level: an user-centered console for requesting
+IT services from a published catalog. Each user request launches a predefined
+work-flow that can query and store configuration items, run command-line
+instructions (scripts or other tooling calls like executing Ansible
+playbooks) or call external remote services (like a cloud provider API calls).
 
 ## First approach
 
