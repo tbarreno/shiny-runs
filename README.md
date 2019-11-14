@@ -21,7 +21,7 @@ with features like:
 
 - **Configuration management** for infrastructure and services (i.e.
 hostnames/ports, credentials, paths, default values, etc.)
-- A user **self-service front-end** where they can:
+- An user **self-service front-end** where they can:
   - See the offered catalog (customized for the user's role)
   - Follow the request's status and see the results and logs
 - A developer **front-end** or **IDE** where they can:
