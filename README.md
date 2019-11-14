@@ -40,7 +40,7 @@ Well... yes, a sort of.
 Let's explain a bit more about what's the gap we want to cover with
 this tool.
 
-I an [quick and dirty essay](https://bluespot.info/posts/2019/automation-maturity-levels-revised/)
+In a [quick and dirty essay](https://bluespot.info/posts/2019/automation-maturity-levels-revised/)
 I described tree levels of automation maturity stages that I've frequently
 seen in a IT organization (department, team or company).
 
